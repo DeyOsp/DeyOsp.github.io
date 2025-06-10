@@ -5,12 +5,12 @@ export default function Home() {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Dashboard",
+      title: "D10",
       description:
-        "A comprehensive admin dashboard for managing products, orders, and analytics with real-time data visualization.",
+        "Landing atractiva para la presentación de la marca D10 y pagina de academia para la subida de cursos y clases para la misma marca deportiva.",
       technologies: ["React", "JavaScript", "Node.js", "MySQL", "Tailwind CSS"],
-      githubUrl: "https://github.com/username/ecommerce-dashboard",
-      liveUrl: "https://dashboard-demo.vercel.app",
+      // githubUrl: "https://github.com/username/ecommerce-dashboard",
+      linkUrl: "https://d10mas.com",
     },
   ];
 
@@ -53,7 +53,7 @@ export default function Home() {
           <section className="pt-24 pb-16 px-4 sm:px-6 lg:px-8">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
-                Hola, yo soy Deymer Ospina
+                Hola, soy Deymer Ospina
               </h1>
               <p className="text-xl sm:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
                 Un desarrollador web apasionado que crea experiencias digitales
@@ -70,14 +70,14 @@ export default function Home() {
                   href="#contact"
                   className="inline-flex items-center px-8 py-3 border border-gray-300 text-gray-700 rounded-lg hover:border-gray-400 transition-colors font-medium"
                 >
-                  Ponte en contacto con nosotros
+                  Ponte en contacto conmigo
                 </a>
               </div>
             </div>
           </section>
 
           {/* About Section */}
-          <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
+          <section id="about" className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
             <div className="max-w-6xl mx-auto">
               <div className="grid md:grid-cols-2 gap-12 items-center">
                 <div>
@@ -86,17 +86,18 @@ export default function Home() {
                   </h2>
                   <div className="space-y-4 text-gray-600 leading-relaxed">
                     <p>
-                      Soy desarrollador web full-stack con más de 5 años de
-                      experiencia en la creación de aplicaciones web modernas.
-                      Me especializo en React, Next.js y Node.js, con un fuerte
-                      enfoque en la creación de experiencias de usuario
-                      intuitivas y soluciones backend escalables.
+                      Soy desarrollador web full-stack, con un año de
+                      experiencia construyendo interfaces visuales claras y
+                      sistemas funcionales que realmente se usan. Trabajo
+                      principalmente con tecnologías como React, Node.js y SQL,
+                      aunque siempre estoy aprendiendo algo nuevo.
                     </p>
                     <p>
-                      Cuando no estoy codificando, puedes encontrarme explorando
-                      nuevas tecnologías, contribuyendo a proyectos de código
-                      abierto o compartiendo conocimientos a través de redacción
-                      técnica y tutoría.
+                      Me gusta crear soluciones que se vean bien y funcionen
+                      mejor. Me enfoco en que el código tenga sentido tanto para
+                      la máquina como para quien lo mantiene después. He
+                      trabajado desde landing pages animadas hasta sistemas
+                      administrativos conectados a bases de datos reales.
                     </p>
                     <div className="flex items-center text-gray-500 mt-6">
                       <MapPin className="w-4 h-4 mr-2" />
@@ -118,7 +119,7 @@ export default function Home() {
           </section>
 
           {/* Projects Section */}
-          <section className="py-16 px-4 sm:px-6 lg:px-8">
+          <section id="projects" className="py-16 px-4 sm:px-6 lg:px-8">
             <div className="max-w-6xl mx-auto">
               <div className="text-center mb-12">
                 <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
@@ -158,7 +159,7 @@ export default function Home() {
                     </div>
 
                     <div className="flex gap-4">
-                      <a
+                      {/* <a
                         href={project.githubUrl}
                         className="inline-flex items-center text-gray-600 hover:text-gray-900 transition-colors"
                         target="_blank"
@@ -166,15 +167,15 @@ export default function Home() {
                       >
                         <Github className="w-4 h-4 mr-2" />
                         Code
-                      </a>
+                      </a> */}
                       <a
-                        href={project.liveUrl}
+                        href={project.linkUrl}
                         className="inline-flex items-center text-gray-600 hover:text-gray-900 transition-colors"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
                         <ExternalLink className="w-4 h-4 mr-2" />
-                        Live Demo
+                        Link de la web
                       </a>
                     </div>
                   </div>
@@ -184,7 +185,10 @@ export default function Home() {
           </section>
 
           {/* Contact Section */}
-          <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
+          <section
+            id="contact"
+            className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50"
+          >
             <div className="max-w-4xl mx-auto text-center">
               <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
                 Trabajemos juntos
@@ -201,12 +205,12 @@ export default function Home() {
                   className="inline-flex items-center px-6 py-3 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors font-medium"
                 >
                   <Mail className="w-5 h-5 mr-2" />
-                  Enviar correo electrónico
+                  Contácteme por correo
                 </a>
 
                 <div className="flex gap-4">
                   <a
-                    href="www.linkedin.com/in/deymer-alexander-ospina-cárdenas-2b3a8b200"
+                    href="https://www.linkedin.com/in/deymer-alexander-ospina-cárdenas-2b3a8b200"
                     className="inline-flex items-center px-4 py-3 border border-gray-300 text-gray-700 rounded-lg hover:border-gray-400 transition-colors"
                     target="_blank"
                     rel="noopener noreferrer"
