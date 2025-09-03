@@ -13,7 +13,7 @@ Me apasiona crear soluciones prácticas y aprender nuevas tecnologías, siempre 
 ---
 
 ## 📂 Proyectos destacados
-- **[D10 Web](#)** → Sitio en producción para empresa de deportes. *(React, Vite, Tailwind, Node.js, MySQL, API Instagram)*  
+- **[D10 Web](https://d10mas.com)** → Sitio en producción para empresa de deportes. *(React, Vite, Tailwind, Node.js, MySQL, API Instagram)*  
 - **[CRM en desarrollo](#)** → Sistema web interno para gestión de clientes. *(React, Node.js, MySQL)*  
 
 ---
