@@ -1,12 +1,27 @@
-# React + Vite
+# 👋 ¡Hola! Soy Deymer Ospina
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Soy **Desarrollador Full Stack Junior** con experiencia en el desarrollo de aplicaciones web utilizando **React, Tailwind, Node.js y MySQL**.  
+Me apasiona crear soluciones prácticas y aprender nuevas tecnologías, siempre con un enfoque en la **proactividad, el trabajo en equipo y la mejora continua**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologías que utilizo
+- **Frontend:** React, Vite, TailwindCSS, HTML5, CSS3, JavaScript (ES6+)
+- **Backend:** Node.js, Express, MySQL, APIs REST
+- **Herramientas:** Git, GitHub, Axios
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Proyectos destacados
+- **[D10 Web](#)** → Sitio en producción para empresa de deportes. *(React, Vite, Tailwind, Node.js, MySQL, API Instagram)*  
+- **[CRM en desarrollo](#)** → Sistema web interno para gestión de clientes. *(React, Node.js, MySQL)*  
+
+---
+
+## 📫 Conecta conmigo
+- GitHub: [Tu usuario](https://github.com/DeyOsp)  
+- LinkedIn: [Tu perfil](www.linkedin.com/in/deymer-alexander-ospina-cárdenas-2b3a8b200)  
+- Correo: deymer.ospina@gmail.com  
+
+---
+⭐️ *Siempre abierto a aprender y colaborar en proyectos interesantes.*
