@@ -1,14 +1,14 @@
 # 👋 ¡Hola! Soy Deymer Ospina
 
-Soy **Desarrollador Full Stack Junior** con experiencia en el desarrollo de aplicaciones web utilizando **React, Tailwind, Node.js y MySQL**.  
+Soy **Desarrollador Full Stack** con 2 años de experiencia en el desarrollo de aplicaciones web utilizando **React, Tailwind, Node.js y MySQL**.  
 Me apasiona crear soluciones prácticas y aprender nuevas tecnologías, siempre con un enfoque en la **proactividad, el trabajo en equipo y la mejora continua**.
 
 ---
 
 ## 🚀 Tecnologías que utilizo
 - **Frontend:** React, Vite, TailwindCSS, HTML5, CSS3, JavaScript (ES6+)
-- **Backend:** Node.js, Express, MySQL, APIs REST
-- **Herramientas:** Git, GitHub, Axios
+- **Backend:** Node.js, Express, MySQL, SQL Server, APIs REST
+- **Herramientas:** Git, GitHub
 
 ---
 
